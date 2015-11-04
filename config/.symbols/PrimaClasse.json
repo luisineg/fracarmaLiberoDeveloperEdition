@@ -1,0 +1,40 @@
+{
+    "properties": [
+        {
+            "modifiers": [
+                "private"
+            ], 
+            "name": "stringa", 
+            "visibility": "PRIVATE", 
+            "references": [], 
+            "location": {
+                "column": 18, 
+                "line": 2
+            }, 
+            "type": "String"
+        }
+    ], 
+    "externalReferences": [], 
+    "innerClasses": [], 
+    "interfaces": [], 
+    "constructors": [], 
+    "namespace": null, 
+    "name": "PrimaClasse", 
+    "tableDeclaration": {
+        "type": "PrimaClasse", 
+        "modifiers": [
+            "with sharing", 
+            "public"
+        ], 
+        "references": [], 
+        "location": {
+            "column": 27, 
+            "line": 1
+        }, 
+        "name": "PrimaClasse"
+    }, 
+    "key": "01p2400000ACixGAAT", 
+    "variables": [], 
+    "id": "01p2400000ACixGAAT", 
+    "methods": []
+}

@@ -1,0 +1,19 @@
+{
+    "username": "fracarma@libero.it", 
+    "project_name": "Developer Edition fracarma@libero.it", 
+    "org_url": "", 
+    "namespace": "", 
+    "metadata_container": "1dc24000000B3SwAAK", 
+    "environment": "developer", 
+    "workspace": "/home/francescocarmagnola/SublimeWorkspace/MavensMate", 
+    "id": "P4EJDQYRSIZTHHMYY2JJBA4FZKH74IW0", 
+    "subscription": [
+        "ApexClass", 
+        "ApexComponent", 
+        "ApexPage", 
+        "ApexTrigger", 
+        "StaticResource", 
+        "CustomObject", 
+        "Profile"
+    ]
+}

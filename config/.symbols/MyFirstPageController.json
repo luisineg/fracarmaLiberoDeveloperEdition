@@ -1,0 +1,98 @@
+{
+    "properties": [
+        {
+            "modifiers": [
+                "private", 
+                "final"
+            ], 
+            "name": "mysObject", 
+            "visibility": "PRIVATE", 
+            "references": [], 
+            "location": {
+                "column": 24, 
+                "line": 3
+            }, 
+            "type": "SObject"
+        }, 
+        {
+            "modifiers": [
+                "public"
+            ], 
+            "name": "helloWorld", 
+            "visibility": "PUBLIC", 
+            "references": [], 
+            "location": {
+                "column": 19, 
+                "line": 5
+            }, 
+            "type": "String"
+        }, 
+        {
+            "modifiers": [
+                "public"
+            ], 
+            "name": "checkBox", 
+            "visibility": "PUBLIC", 
+            "references": [], 
+            "location": {
+                "column": 20, 
+                "line": 15
+            }, 
+            "type": "Boolean"
+        }
+    ], 
+    "externalReferences": [], 
+    "innerClasses": [], 
+    "interfaces": [], 
+    "constructors": [
+        {
+            "modifiers": [
+                "public"
+            ], 
+            "name": "MyFirstPageController", 
+            "parameters": [
+                {
+                    "type": "StandardController", 
+                    "name": "stdController"
+                }
+            ], 
+            "visibility": "PUBLIC", 
+            "references": [], 
+            "location": {
+                "column": 12, 
+                "line": 22
+            }, 
+            "type": null
+        }
+    ], 
+    "namespace": null, 
+    "name": "MyFirstPageController", 
+    "tableDeclaration": {
+        "type": "MyFirstPageController", 
+        "modifiers": [
+            "public", 
+            "with sharing"
+        ], 
+        "references": [], 
+        "location": {
+            "column": 27, 
+            "line": 1
+        }, 
+        "name": "MyFirstPageController"
+    }, 
+    "key": "01p2400000CUp2gAAD", 
+    "variables": [
+        {
+            "type": "StandardController", 
+            "modifiers": [], 
+            "references": [], 
+            "location": {
+                "column": 63, 
+                "line": 22
+            }, 
+            "name": "stdController"
+        }
+    ], 
+    "id": "01p2400000CUp2gAAD", 
+    "methods": []
+}
