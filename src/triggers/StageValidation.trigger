@@ -1,11 +1,14 @@
 trigger StageValidation on Damage__c (before update) {
 
-  
-
     for (Integer x = 0; x < Trigger.New.size(); x++) {
 
         Damage__c dNew = Trigger.new[x];
         Damage__c dOld = Trigger.old[x];
+        system.debug('asdfasdf');
+
+
+
+
 
         String stageNext
             = (dOld.Stage__c == null) ? 'Internal Assessment'
@@ -14,10 +17,9 @@ trigger StageValidation on Damage__c (before update) {
               : (dOld.Stage__c == 'Awaiting Compensation') ? 'Completed'
               : (dOld.Stage__c == 'Completed') ? 'Completed' : 'Caso non gestito';
 
-        if (dNew.Stage__c != stageNext) {
+        if (!(dNew.Stage__c == stageNext || dNew.Stage__c == dOld.Stage__c)) {
             dNew.addError('The new stage ' + dNew.Stage__c + ' is not permitted. The next stage have to be ' + stageNext);
 
         }
     }
 }
-

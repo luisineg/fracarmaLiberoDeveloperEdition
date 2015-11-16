@@ -1,0 +1,23 @@
+<apex:page showHeader="true" sidebar="true" controller="ShowCountryController">
+
+
+
+	<apex:form id="form1">
+		<apex:sectionHeader title="MyHeaderTitle" subtitle="MyHeaderSubTitle" />
+		<apex:pageBlock title="MyPageBlockTitle" >
+			
+			
+			<apex:selectList value="{!regionChosen}" size="1" multiselect="false">
+				<apex:selectOptions value="{!regionsOptList}" />
+				<apex:actionSupport event="onchange" reRender="form1" status="loading"/>
+			</apex:selectList>
+
+			<apex:actionStatus id="loading" startText="Searching…" />
+			<apex:pageBlockTable value="{!CountriesInRegion}" var="item" id="CountriesTable"  rendered="{!CountriesInRegion.size > 0}">
+				 <apex:column value="{!item.name}"/>
+			</apex:pageBlockTable>
+
+			
+		</apex:pageBlock>
+	</apex:form>
+</apex:page>

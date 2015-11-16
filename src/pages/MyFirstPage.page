@@ -1,11 +1,11 @@
 <apex:page showHeader="true" sidebar="true" standardController="Object__c" extensions="MyFirstPageController">
-	<apex:form>
+	<apex:form >
 		
-		<apex:pageBlock title= "Hello {!$User.FirstName} !!!">
+		<apex:pageBlock title="Hello {!$User.FirstName} !!!">
 		
 			<apex:pageBlockSection columns="2">
 				<apex:inputCheckbox value="{!checkBox}" id="asd">
-					<apex:actionSupport  event="onClick" />
+					<apex:actionSupport event="onClick" />
 				</apex:inputCheckbox>
 				<apex:outputText value="{!helloWorld}" />			
 			</apex:pageBlockSection> 
